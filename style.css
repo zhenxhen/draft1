@@ -1,0 +1,31 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #f2f3ec; /* Base background matching image */
+    font-family: 'Inter', sans-serif;
+}
+
+#canvas-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* Optional subtle overlay text/branding */
+.overlay {
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    z-index: 10;
+    pointer-events: none;
+    color: #000;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+}
